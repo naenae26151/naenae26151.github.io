@@ -1,3 +1,4 @@
+
 /* global $, sessionStorage*/
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -12,7 +13,7 @@ var highScoreElement = $("#highScore");
 // Game Variables
 var score = 0; // variable to keep track of the score
 var started = false; // variable to keep track of whether the game has started
-var colors = ["green", "orange", "white", "green", "orange", "white"];
+var colors = ["green", "purple", "green", "purple", "green", "purple"];
 var colorIndex = 0;
 
 // TODO 4, Part 1: Create the apple variable
@@ -356,4 +357,3 @@ function calculateHighScore() {
 
   return highScore;
 }
-
